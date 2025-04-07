@@ -1,5 +1,4 @@
 grade.py
-(''')
 score = int(input("Whats your score \n"))
 if 90 <= score <= 100:
    print("Your possition is excellent")
@@ -15,4 +14,3 @@ elif 0 <= score < 49:
    print("fail")
 else:
    print ("invalid score, input a number between 0 to 100")
-(''')
