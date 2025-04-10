@@ -39,9 +39,23 @@ A Python-based application designed to manage and evaluate student academic perf
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/student-score-grading.git
-   cd student-score-grading
+   ```
+   score = int(input("Whats your score \n"))
+   if 90 <= score <= 100:
+   print("Your possition is excellent")
+   elif 80 <= score < 89:
+   print("very good")
+   elif 70 <= score < 79:
+   print ("good")
+   elif 60 <= score < 69:
+   print ("satisfactory")
+   elif 50 <= score < 59:
+   print ("needs improvement")
+   elif 0 <= score < 49:
+   print("fail")
+   else:
+   print ("invalid score, input a number between 0 to 100")
+   ```
 2. (Optional) Create and activate a virtual environment:
 
 python -m venv venv
