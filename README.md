@@ -60,17 +60,18 @@ python main.py
 Example Code Snippets
 
 Grade Calculation Function
-def calculate_grade(score):
-    if score >= 90:
-        return 'A'
-    elif score >= 80:
-        return 'B'
-    elif score >= 70:
-        return 'C'
-    elif score >= 60:
-        return 'D'
-    else:
-        return 'F'
+
+if score >= 90:
+   return 'A'
+elif score >= 80:
+     return 'B'
+elif score >= 70:
+     return 'C'
+elif score >= 60:
+     return 'D'
+else:
+    return 'F'
+
 Future Improvements
 
 Add persistent database support
@@ -78,8 +79,6 @@ Add persistent database support
 Build a web interface using Flask or Django
 
 Implement user authentication for teachers
-
-Export reports to PDF
 
 
 License
