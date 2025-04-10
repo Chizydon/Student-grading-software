@@ -57,22 +57,6 @@ pip install -r requirements.txt
 
 python main.py
 
-Example Code Snippets
-
-Grade Calculation Function
-
-
-def calculate_grade(score):
-    if score >= 90:
-        return 'A'
-    elif score >= 80:
-        return 'B'
-    elif score >= 70:
-        return 'C'
-    elif score >= 60:
-        return 'D'
-    else:
-        return 'F'
 
 
 Future Improvements
