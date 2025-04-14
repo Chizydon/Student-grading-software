@@ -42,19 +42,19 @@ A Python-based application designed to manage and evaluate student academic perf
    ```
    score = int(input("Whats your score \n"))
    if 90 <= score <= 100:
-   print("Your possition is excellent")
+      print("Your possition is excellent")
    elif 80 <= score < 89:
-   print("very good")
+      print("very good")
    elif 70 <= score < 79:
-   print ("good")
+      print ("good")
    elif 60 <= score < 69:
-   print ("satisfactory")
+      print ("satisfactory")
    elif 50 <= score < 59:
-   print ("needs improvement")
+      print ("needs improvement")
    elif 0 <= score < 49:
-   print("fail")
+      print("fail")
    else:
-   print ("invalid score, input a number between 0 to 100")
+      print ("invalid score, input a number between 0 to 100")
    ```
 2. (Optional) Create and activate a virtual environment:
 
